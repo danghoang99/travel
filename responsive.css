@@ -1,0 +1,208 @@
+@media screen and (max-width: 376px) {
+    .bars, .checkbox, .overlay, .button__booknow, .list__cate, .nav__logo {
+        display: none;
+    }
+    .nav {
+        background-color: #555555;
+        height: 125px;
+    }
+    .nav__mobile {
+        height: 125px;
+        display: block;
+        margin: auto;
+    }
+    .nav__mobile img {
+        width: 160px;
+        height: 37px;
+        margin-top: 20px;
+    }
+    .bars__mobile {
+        text-align: center;
+    }
+    .bars__mobile i {
+        font-size: 30px;
+        color: white;
+        margin-top: 10px;
+    }
+    .content__one h3 {
+        margin-top: -10px;
+        font-size: 40px;
+        padding: 0;
+        text-overflow: clip;
+    }
+    .content__one h4 {
+        margin-top: -20px;
+    }
+    .content__two-list {
+        margin-top: -300px;
+        justify-content: space-around;
+    }
+    .content__two {
+        margin-top: 60px;
+        justify-content: space-evenly;
+    }
+    .content__two-list1, .content__two-list2, .content__two-list3 {
+        margin-right: 0;
+    }
+    .select__one {
+        width: 238px;
+        height: 48px;
+    }
+    .text__h5 {
+        margin-top: -120px;
+    }
+    .text__h3 {
+        font-size: 40px;
+    }
+    .colume__img img {
+        width: 298px;
+        height: 300px;
+        margin-bottom: 25px;
+    }
+    .colume__img-hover {
+        width: 298px;
+        height: 300px;
+        margin: 0 auto;
+        line-height: 20px;
+        j
+    }
+    .colume__img-hover h4 {
+        margin-bottom: 10px;
+        margin-top: 75px;
+    }
+    .colume__img-hover h5 {
+        padding: 2px;
+    }
+    .colume__img-hover button {
+        margin-top: 10px;
+    }
+    .colume__img-hover .text__h4 {
+        margin-top: 100px;
+    }
+    .colume__img-hover .text__h4-two {
+        margin-top: 90px;
+    }
+    .content__confirm {
+        flex-wrap: wrap;
+    }
+    .slide1 {
+        flex-direction: column;
+        margin-top: -2px;
+    }
+    .slide1__one button {
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .content__left h3 {
+        line-height: 45px;
+    }
+    .content__left p{
+        width: 175px;
+    }
+    .content__list {
+        margin-top: 550px;
+        flex-wrap: wrap;
+    }
+    .content__right {
+        width: 85%;;
+        height: 155px;
+        margin-left: 30px;
+    }
+    .price {
+        width: 376px;
+        height: 40px;
+        margin-left: -50px;
+    }
+    .content__left button {
+        padding: 5px 40px;
+    }
+    .content__left button a {
+        font-size: 10px;
+    }
+    .content__right-bg {
+        width: 100%;
+        margin-top: 155px !important;
+    }
+    .content__img {
+        height: 234px;
+    }
+    .content .text__h5 {
+        margin-top: 60px;
+    }
+    .image__two {
+        flex-direction: column;
+    }
+    .image__left {
+        width: 100%;
+    }
+    .image__right {
+        width: 100%;
+    }
+    .sub__bottom-list {
+        justify-content: space-evenly;
+    }
+    .sub__top, .sub__top1, .sub__top2 {
+        width: 80%;
+        margin: auto;
+    }
+    .sub__bottom h3, .sub__bottom h5, .sub__bottom p, .sub__bottom button {
+        margin-left: 60px;
+    }
+    .list__fake1 {
+        margin-left: 15px;
+    }
+    .list__sub {
+        margin-bottom: 50px;
+    }
+    .footer__info {
+        flex-wrap: wrap;
+    }
+    .footer__info-real {
+        margin-top: 100px;
+    }
+    .info__text h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .info__text h5, .info__text h1 {
+        margin-left: 50px;
+    }
+    .info__text h5 {
+        margin-top: 90px;
+    }
+    .info__input {
+        margin-bottom: 20px;
+    }
+    .info__button button {
+        width: 258px;
+        margin: auto;
+    }
+    .footer__info-real {
+        width: 85%;
+        height: 500px;
+    }
+    .real__two li {
+        font-size: 13px;
+    }
+    .real__two h3 {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .footer {
+        height: 1000px;
+    }
+    .real__two .img1 {
+        margin-left: 10px;
+    }
+    .real__one .img {
+        margin-left: -40px;
+        margin-bottom: 15px;
+    }
+    .real__one h5 {
+        width: 204px;
+        margin-left: -40px;
+    }
+    .infor {
+        width: 85%;
+    }
+}
