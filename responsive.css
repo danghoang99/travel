@@ -92,6 +92,7 @@
     .slide1__one button {
         margin-left: 30px;
         margin-bottom: 20px;
+        background_color: white;
     }
     .content__left h3 {
         line-height: 45px;
