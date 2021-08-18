@@ -339,6 +339,8 @@
 }
 .list__cate-new5 li {
     line-height: 40px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .list__cate-new5 li a {
     color: #9a9a9a !important;
