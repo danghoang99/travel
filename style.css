@@ -848,6 +848,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    flex-wrap: wrap !important;
 }
 .footer__info {
     height: 244px;
@@ -896,6 +897,7 @@ body {
     text-align: left;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .real__one {
     flex: 6;
@@ -952,4 +954,7 @@ body {
     font-size: 12px;
     letter-spacing: 2px;
     padding: 20px;
+}
+.nav__mobile {
+    display: none;
 }
