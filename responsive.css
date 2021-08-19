@@ -120,7 +120,7 @@
         line-height: 45px;
     }
     .content__left p{
-        width: 175px;
+        width: 200px;
     }
     .content__list {
         margin-top: 550px;
@@ -134,7 +134,8 @@
     .price {
         width: 376px;
         height: 40px;
-        margin-left: -50px;
+        /* margin-left: -50px; */
+        margin-top: 30px;
     }
     .content__left button {
         padding: 5px 40px;
@@ -179,6 +180,12 @@
     }
     .list__sub {
         margin-bottom: 50px;
+    }
+    .list__fake a {
+        margin-left: 10px;
+    }
+    .list__fake1 a {
+        margin-left: 13px;
     }
     .footer__info {
         flex-wrap: wrap;
