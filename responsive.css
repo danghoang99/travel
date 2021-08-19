@@ -2,9 +2,25 @@
     .bars, .checkbox, .overlay, .button__booknow, .list__cate, .nav__logo {
         display: none;
     }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .nav {
         background-color: #555555;
         height: 125px;
+        width: 376px;
+        position: absolute;
+    }
+    body {
+        background-image: none;
+    }
+    .content {
+        background-image: url(image/slide.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .nav__mobile {
         height: 125px;
@@ -24,11 +40,13 @@
         color: white;
         margin-top: 10px;
     }
+    .content__one {
+        line-height: 100px;
+    }
     .content__one h3 {
         margin-top: -10px;
         font-size: 40px;
         padding: 0;
-        text-overflow: clip;
     }
     .content__one h4 {
         margin-top: -20px;
@@ -38,7 +56,7 @@
         justify-content: space-around;
     }
     .content__two {
-        margin-top: 60px;
+        margin-top: 140px;
         justify-content: space-evenly;
     }
     .content__two-list1, .content__two-list2, .content__two-list3 {
@@ -49,7 +67,7 @@
         height: 48px;
     }
     .text__h5 {
-        margin-top: -120px;
+        margin-top: -80px !important;
     }
     .text__h3 {
         font-size: 40px;
@@ -92,7 +110,7 @@
     .slide1__one button {
         margin-left: 30px;
         margin-bottom: 20px;
-        background_color: white;
+        background-color: white;
     }
     .content__left h3 {
         line-height: 45px;
@@ -127,11 +145,11 @@
     .content__img {
         height: 234px;
     }
-    .content .text__h5 {
-        margin-top: 60px;
-    }
     .image__two {
         flex-direction: column;
+    }
+    .text__h6 {
+        margin-top: 70px !important;
     }
     .image__left {
         width: 100%;
@@ -182,18 +200,22 @@
         width: 85%;
         height: 500px;
     }
+    .real__two {
+        display: inline-block;
+    }
     .real__two li {
-        font-size: 13px;
+        font-size: 13px !important;
+        width: 100px;
     }
     .real__two h3 {
-        font-size: 12px;
+        font-size: 13px;
         margin-left: 10px;
-    }
-    .footer {
-        height: 1000px;
     }
     .real__two .img1 {
         margin-left: 10px;
+    } 
+    .footer {
+        height: 1000px;
     }
     .real__one .img {
         margin-left: -40px;
