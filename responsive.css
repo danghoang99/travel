@@ -5,7 +5,9 @@
     .nav {
         background-color: #555555;
         height: 125px;
-        width: 100%;
+        width: 375.33px;
+        position: fixed;
+        z-index: 1;
     }
     .bars__btn {
         display: none;
