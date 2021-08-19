@@ -801,6 +801,19 @@ body {
     position: absolute;
     right: 20px;
     bottom: -22px;
+    cursor: pointer;
+}
+.sub__top .sub__icon {
+    background: linear-gradient(
+    90deg, #ffd005, #ff9e05);
+}
+.sub__top1 .sub__icon1 {
+    background: linear-gradient(
+    90deg, #f7676f, #f78a65);
+}
+.sub__top2 .sub__icon2 {
+    background: linear-gradient(
+    90deg, #bc71d4, #d77183);
 }
 .sub__top .icon img, .sub__top1 .icon img, .sub__top2 .icon img{
     width: 26px;
@@ -820,7 +833,7 @@ body {
     margin-top: 25px;
 }
 .sub__bottom p {
-    color: #ffd205;
+    color: #9a9a9a;
     line-height: 1.6rem;
     margin-left: 30px;
 }
@@ -861,8 +874,26 @@ body {
     color: white;
     margin-left: 10px;
 }
+.list__fake1 .fake__two {
+    background-color: #f76570;
+}
+.sub__bottom .fake__two-button {
+    background-color: #f76570;
+}
+.sub__bottom .fake__two-button:hover {
+    background-color: #e84a56;
+}
+.list__fake .fake__three {
+    background-color: #ba71da;
+}
+.sub__bottom .fake__three-button {
+    background-color: #ba71da
+}
+.sub__bottom .fake__three-button:hover {
+    background-color: #ab43d9;
+}
 .list__real p {
-    color: #ffd205;
+    color: #555;
     font-size: 30px;
     margin-right: 25px;
 }
