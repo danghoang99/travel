@@ -512,6 +512,33 @@ body {
     position: relative;
     flex-direction: column;
 }
+.img__icon2 {
+    width: 100%;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: -140px;
+}
+.img__icon2 h5 {
+    margin-left: 25px;
+    margin-top: 230px;
+    font-size: 20px;
+    font-weight: 700 !important;
+    color: white;
+}
+.img__icon2 .h5__two {
+    margin-left: 97px !important;
+}
+.img__icon2 p {
+    margin-left: 55px;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.img__icon2 img {
+    width: 35px !important;
+    height: 35px;
+}
 .colume__img img {
     width: 380px;
     height: auto;
