@@ -1,4 +1,4 @@
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 375.33px) {
     .bars, .checkbox, .overlay, .button__booknow, .list__cate, .nav__logo {
         display: none;
     }
@@ -6,10 +6,12 @@
         background-color: #555555;
         height: 125px;
         width: 100%;
-        position: absolute;
     }
     .bars__btn {
         display: none;
+    }
+    * {
+        margin: auto;
     }
     body {
         background-image: none;
@@ -70,6 +72,9 @@
     }
     .text__h3 {
         font-size: 40px;
+    }
+    .colume__img {
+        width: 100%;
     }
     .colume__img img {
         width: 298px;
@@ -143,6 +148,9 @@
     }
     .content__img {
         height: 234px;
+    }
+    .img__one .img__end {
+        margin-right: 90px;
     }
     .image__two {
         flex-direction: column;
@@ -226,5 +234,29 @@
     }
     .infor {
         width: 85%;
+        flex-direction: column;
+    }
+    .infor p {
+        padding: 6px;
+    }
+    .img__icon2 {
+        margin-top: -25px;
+        margin-left: 20px;
+        top: 50px;
+        left: -125px
+    }
+    .img__icon2 h5 {
+        margin-top: 135px;
+        margin-left: 35px;
+    }
+    .img__icon2 img {
+        width: 35px !important;
+        height: 35px;
+    }
+    .img__icon2 .img__thai {
+        margin-left: 65px;
+    }
+    .img__icon2 .img__asea {
+        margin-right: 25px;
     }
 }
