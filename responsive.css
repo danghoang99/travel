@@ -16,6 +16,7 @@
     }
     body {
         background-image: none;
+        overflow: hidden;
     }
     .content {
         background-image: url(image/slide.jpg);
@@ -43,7 +44,7 @@
     }
     .content__one {
         line-height: 100px;
-        margin-top: 9.5px;
+        margin-top: 9.9px;
     }
     .content__one h3 {
         margin-top: -10px;
@@ -88,7 +89,6 @@
         height: 300px;
         margin: 0 auto;
         line-height: 20px;
-        j
     }
     .colume__img-hover h4 {
         margin-bottom: 10px;
@@ -267,5 +267,166 @@
     }
     .img__icon2 .img__asea {
         margin-right: 25px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .bars, .checkbox, .overlay, .button__booknow, .list__cate, .nav__logo {
+        display: none;
+    }
+    .nav {
+        background-color: #555555;
+        height: 280px;
+        width: 653px;
+        z-index: 1;
+        margin: auto;
+    }
+    .bars__btn {
+        display: none;
+    }
+    * {
+        margin: auto;
+    }
+    body {
+        background-image: none;
+    }
+    .content {
+        background-image: url(image/slide.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 653px;
+    }
+    .nav__mobile {
+        height: 125px;
+        display: block;
+        margin: auto;
+    }
+    .nav__mobile img {
+        width: 400px;
+        height: auto;
+        margin-top: -30px;
+    }
+    .bars__mobile {
+        text-align: center;
+    }
+    .bars__mobile i {
+        font-size: 60px;
+        color: white;
+        margin-bottom: 40px !important;
+    }
+    .content__one {
+        line-height: 120px;
+        margin-top: 9.9px;
+    }
+    .content__one h3 {
+        margin-top: -10px;
+        font-size: 60px;
+        padding: 0;
+    }
+    .content__one h4 {
+        margin-top: -20px;
+        font-size: 25px;
+    }
+    .content__two-list {
+        /* margin-top: -300px; */
+        justify-content: space-around;
+    }
+    .content__two {
+        margin-top: 120px;
+        justify-content: space-evenly;
+    }
+    .select__one {
+        width: 350px;
+        height: 50px;
+        background-color: white;
+    }
+    .text__h5 {
+        margin-top: -80px !important;
+        font-size: 23px;
+    }
+    .text__h3 {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+    .colume__img {
+        width: 100%;
+    }
+    .colume__img img {
+        width: 498px;
+        height: 500px;
+        margin-bottom: 80px;
+    }
+    .colume__img-hover {
+        width: 498px;
+        height: 500px;
+        margin: 0 auto;
+        line-height: 20px;
+    }
+    .colume__img-hover h4 {
+        margin-bottom: 10px;
+        margin-top: 75px;
+    }
+    .colume__img-hover h5 {
+        padding: 2px;
+    }
+    .colume__img-hover button {
+        margin-top: 10px;
+    }
+    .colume__img-hover .text__h4 {
+        margin-top: 100px;
+    }
+    .colume__img-hover .text__h4-two {
+        margin-top: 90px;
+    }
+    .slide1 {
+        flex-direction: column;
+        margin-top: -2px;
+        height: 800px;
+    }
+    .slide1__one button {
+        margin-left: 5px;
+        margin-bottom: 20px;
+        background-color: white;
+        padding: 35px 150px;
+        font-size: 40px;
+        border-radius: 100px
+    }
+    .content__left h3 {
+        line-height: 45px;
+    }
+    .content__left p{
+        width: 200px;
+    }
+    .content__list {
+        margin-top: 550px;
+        flex-wrap: wrap;
+    }
+    .content__right {
+        width: 85%;;
+        height: 155px;
+        margin-left: 30px;
+    }
+    .price {
+        width: 376px;
+        height: 40px;
+        /* margin-left: -50px; */
+        margin-top: 30px;
+    }
+    .content__left button {
+        padding: 5px 40px;
+    }
+    .content__left button a {
+        font-size: 10px;
+    }
+    .content__right-bg {
+        width: 100%;
+        margin-top: 155px !important;
+    }
+    .content__img {
+        height: 234px;
+    }
+    .slide1__one h1 {
+        font-size: 75px;
+        margin-top: 70px;
     }
 }
